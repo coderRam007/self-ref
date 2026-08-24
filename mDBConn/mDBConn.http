@@ -1,0 +1,6 @@
+@mDBConn_HostAddress = http://localhost:5125
+
+GET {{mDBConn_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
