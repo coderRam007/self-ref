@@ -1,0 +1,49 @@
+.grid{
+    overflow-y: scroll;
+    border: 5px solid rgb(71, 67, 136);;
+    padding-top: 10px;
+    width: 98%;
+    height:530px;
+    padding-left: 30px;
+    overflow-x: hidden; 
+    background-color: black;
+    color: aliceblue;
+  }
+  .images{
+    width: 100%;
+    max-height:500px;
+  }
+  img{
+    width:98%;
+    height:200px;
+    cursor:pointer;
+  }
+  .imageName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .imageCheckBoxes{
+    margin:89%;
+  }
+  
+  .checkBox{
+    cursor:pointer;
+  }
+  .imageCard{
+    width:18%;
+    padding: 2px;
+    margin-right: 18px;
+    float: left;
+    margin-bottom: 40px;
+    border: 1px solid ghostwhite;
+    text-align: center;
+  }
+  .imageCard:hover{
+    border: 1px solid rgba(218, 128, 18, 0.874);
+    background-color: rgba(218, 128, 18, 0.874);
+    transition: 0.4s;
+    
+  }

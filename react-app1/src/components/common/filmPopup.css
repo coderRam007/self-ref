@@ -1,0 +1,21 @@
+
+.popupImage{
+    border-radius: 7%;
+    width:200px;
+    height:250px;
+    margin:20px ;
+    float: right;
+    margin-top: 0px;
+    border: 1px solid white;
+}
+.description{
+    text-align: justify;
+}
+.p-dialog .p-dialog-header{
+    background-color:black;
+    color:white;
+}
+.p-dialog .p-dialog-content{
+    background-color:black;
+    color:white;
+}

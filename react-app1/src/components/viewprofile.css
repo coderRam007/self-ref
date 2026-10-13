@@ -1,0 +1,28 @@
+.profile-img{
+    height:170px;
+    width:170px;
+    border-radius: 50%;
+}
+
+.container{
+display:flex;
+justify-content: center;
+}
+
+.gridcontainer{
+    display:grid;
+    grid-template-columns:50% 50%;
+}
+
+.grid2{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+.wrapper{
+    padding-top:50px;
+    padding-left:100px;
+    width:700px;
+    background-color: #323033;
+    border-radius: 5%;
+}

@@ -1,0 +1,88 @@
+main{
+    color: black ;
+  }
+  .name{
+    display: flex;
+    justify-content: start;
+  }
+  .formprofileimage{
+    border-radius:50%;
+      width:100px;
+      height:100px;
+      margin-left: 160px;
+      margin-top:20px;
+      cursor: pointer;
+  }
+  .grid-1{
+    margin-top: 10px;
+    display: grid;
+    margin-left: 10px;
+    grid-template-columns: 70% 30%;
+  }
+  .grid-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 25px;
+  }
+  .grid-3{
+    margin-top: 25px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+  }
+  .grid-4{
+    margin-top: 25px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+  }
+  .grid-5{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-top: 25px;
+  }
+  .grid-6{
+    display: grid;
+    margin-left: 5px;
+    grid-template-columns: 12% 88%;
+  }
+  .image input{
+    visibility:hidden; 
+    display:none;
+  }
+
+
+  .formcontainer{
+    width:95%;
+    background-color: whitesmoke;  
+    margin-top: 15px;
+    margin-left: 2.5%;
+    border-radius: 12px;
+  }
+  .state{
+    margin-bottom: 10px;
+  }
+  .city{
+    margin-bottom: 10px;
+  }
+  .pincode{
+    margin-bottom: 10px;
+  }
+  .email{
+    margin-top: 30px;
+  }
+  .btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+    /* Style for empty input */
+.empty {
+  border-color: red; /* Change border color */
+  background-color: #ffeeee; /* Change background color */
+}
+  

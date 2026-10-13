@@ -1,0 +1,75 @@
+
+  .selectedCount{
+    background-color: black;
+      color: aliceblue;
+      margin: 0px !important;
+      font-size: xx-large;
+      font-weight: bolder;
+  }
+  .grid{
+      overflow-y: scroll;
+      border: 5px solid rgb(71, 67, 136);;
+      padding-top: 10px;
+      width: 98%;
+      height:530px;
+      padding-left: 30px;
+      overflow-x: hidden; 
+      background-color: black;
+      color: aliceblue;
+    }
+    .images{
+      width: 100%;
+      max-height:500px;
+    }
+
+    
+    .selectedCount{
+      text-align: right;
+    }
+    button{
+      border: 2px solid white;
+      margin: 0px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    .search{
+      width: 15px;
+      height: 15px;
+      margin-left: 0;
+      padding: 0;
+    }
+    body{
+      background-color: black;
+    }
+    .dropdown{
+      padding-top: 3.3px;
+      padding-bottom: 3.3px;
+      margin-left: 5px;
+      margin-right: 10px;
+    }
+    .spinner {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .spinner span {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border: 3px solid transparent;
+        border-radius: 50%;
+        border-right-color: rgba(255, 255, 255, 0.7);
+        animation: spinner-anim 0.8s linear infinite;
+      }
+      
+      @keyframes spinner-anim {
+        from {
+          transform: rotate(0);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }

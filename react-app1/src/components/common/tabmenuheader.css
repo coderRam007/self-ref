@@ -1,0 +1,10 @@
+.avatar-img{
+    display: flex;
+    width: 550px;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+.main-header{
+    color: white;
+
+}
